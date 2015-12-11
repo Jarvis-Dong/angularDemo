@@ -1,0 +1,52 @@
+[
+  {
+    "id":"1",
+    "name": "大众途观",
+    "snippet": "一辆在中国销量很好的suv",
+    "price":"20w",
+    "imgUrl":"imgs/tuguan.jpg"
+  },
+  {
+    "id":"2",
+    "name": "Porshche Macan",
+    "snippet": "帅，帅只有一个字",
+    "price":"50w",
+    "imgUrl":"imgs/macan.jpg"
+
+  },
+  {
+    "id":"3",
+    "name": "兰博基尼",
+    "snippet": "你敢信这辆车不怎么会转弯吗？",
+    "price":"150w",
+    "imgUrl":"imgs/lp650.jpg"
+  },
+  {
+    "id":"4",
+    "name": "歌诗图",
+    "snippet": "我也不知道这是辆车还是个牌子",
+    "price":"50w",
+    "imgUrl":"imgs/geshitu.jpg"
+  },
+  {
+    "id":"5",
+    "name": "Nissan GTR",
+    "snippet": "东瀛战胜，可能是世界上性价比最高的车，性能！价值！",
+    "price":"60w",
+    "imgUrl":"imgs/gtr.jpg"
+  },
+  {
+    "id":"6",
+    "name": "Mustang",
+    "snippet": "看到了会侧目，但是很少有人会买",
+    "price":"120w",
+    "imgUrl":"imgs/mustang.jpg"
+  },
+  {
+    "id":"7",
+    "name": "帕加尼 Zonta",
+    "snippet": "酷炫狂拽吊炸天",
+    "price":"500w",
+    "imgUrl":"imgs/pajiani.jpg"
+  }
+]
