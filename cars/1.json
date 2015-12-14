@@ -3,5 +3,9 @@
   "name": "大众途观",
   "snippet": "一辆在中国销量很好的suv",
   "price":"20w",
-  "imgUrl":"imgs/tuguan.jpg"
+  "imgurl": [
+    "imgs/tuguan.jpg",
+    "imgs/tuguan2.jpg",
+    "imgs/tuguan3.jpg"
+  ]
 }

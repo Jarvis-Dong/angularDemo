@@ -10,7 +10,10 @@
     {{carId}}
 </p>
   <p>{{car.snippet}}</p>
-  <a href="#/cars/{{car.id}}"><img ng-src="{{car.imgUrl}}" alt=""></a>
+  <img ng-src="{{mainImageUrl}}" alt="">
+ <li ng-repeat="img in car.imgurl" style="display: inline-block">
+     <img ng-src="{{img}}" alt="" ng-click="setImage(img)">
+ </li>
   <a href="#/cars/{{car.id}}">{{car.name}}</a>
 
 </body>

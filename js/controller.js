@@ -12,5 +12,10 @@ angular.module('carListApp').controller('carDetailCtrl',['$scope','$routeParams'
     $scope.carId = $routeParams.carId;
     $http.get('cars/'+$routeParams.carId+'.json').success(function (data) {
         $scope.car = data;
+        $scope.mainImageUrl = data.imgurl[0];
     });
+    $scope.setImage = function(imageUrl){
+        $scope.mainImageUrl = imageUrl;
+    };
+
 }]);
